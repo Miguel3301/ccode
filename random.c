@@ -14,7 +14,7 @@ int main ( int argc, char *argv[] )
 	srand((unsigned) time(&t));
 	
 	/* Print loopvalue of random numbers from 0 to 49 */
-	for( i = 0 ; i < loopvalue; i++ )
+	for( i = 0; i < loopvalue; i++ )
 	{
 			randomvalue = rand();
 			value = randomvalue % modvalue;
